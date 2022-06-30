@@ -4,7 +4,7 @@ import bg from "../../assets/images/appointment.png";
 const ContactUs = () => {
   return (
     <div
-      className="text-center my-12 py-12 "
+      className="text-center mt-12 py-12 "
       style={{
         backgroundImage: `url(${bg})`,
       }}
