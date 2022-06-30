@@ -1,23 +1,32 @@
 import React from "react";
+import footer from "../../assets/images/footer.png";
 
 const Footer = () => {
   return (
-    <>
-      <footer class="footer p-10 bg-neutral  text-white">
+    <div
+      className="h-[500px] "
+      style={{
+        backgroundImage: `url(${footer})`,
+      }}
+    >
+      <footer class="footer p-12 pt-20 ">
         <div>
           <span class="footer-title">Services</span>
-          <span class="footer-title">Cholo Khai</span>
           <a class="link link-hover">Branding</a>
           <a class="link link-hover">Design</a>
           <a class="link link-hover">Marketing</a>
           <a class="link link-hover">Advertisement</a>
         </div>
         <div>
-          <span class="footer-title">Company</span>
+          <span class="footer-title">ORAL HEALTH</span>
           <a class="link link-hover">About us</a>
           <a class="link link-hover">Contact</a>
           <a class="link link-hover">Jobs</a>
           <a class="link link-hover">Press kit</a>
+        </div>
+        <div>
+          <span class="footer-title">OUR ADDRESS </span>
+          <h2>New York - 101010 Hudson</h2>
         </div>
         <div>
           <span class="footer-title">Social </span>
@@ -58,7 +67,10 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-    </>
+      <h2 className="align-bottom text-center">
+        Copyright 2022 All Rights Reserved
+      </h2>
+    </div>
   );
 };
 
