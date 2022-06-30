@@ -1,20 +1,28 @@
 import React from "react";
-import treatment from "../../assets/images/treatment.png";
 import PrimaryButton from "./PrimaryButton";
+import doctor from "../../assets/images/doctor.png";
+import bg from "../../assets/images/appointment.png";
 
-const DentalCare = () => {
+const Feathers = () => {
   return (
-    <div class="hero min-h-screen px-12">
-      <div class="hero-content flex-col lg:flex-row ">
+    <div
+      class="hero text-white px-12 "
+      style={{
+        backgroundImage: `url(${bg})`,
+      }}
+    >
+      <div class="hero-content gap-0 p-0 flex-col lg:flex-row">
         <img
-          src={treatment}
-          alt="treatment"
-          class="max-w-sm rounded-lg shadow-2xl mr-0 lg:mr-12"
+          src={doctor}
+          alt="doctor"
+          style={{
+            marginTop: "-120px",
+          }}
+          class="hidden lg:block h-[500px] mr-0 lg:mr-12"
         />
         <div className="pl-0 lg:pl-12">
-          <h1 class="text-5xl font-bold">
-            Exceptional Dental Care, on Your Terms
-          </h1>
+          <h2 className="text-secondary text-2xl font-bold">Appointment</h2>
+          <h1 class="text-5xl font-bold">Make an appointment Today</h1>
           <p class="py-6">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout. The point
@@ -30,4 +38,4 @@ const DentalCare = () => {
   );
 };
 
-export default DentalCare;
+export default Feathers;

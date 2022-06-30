@@ -1,6 +1,7 @@
 import React from "react";
 import chair from "../../assets/images/chair.png";
 import bg from "../../assets/images/bg.png";
+import PrimaryButton from "./PrimaryButton";
 
 const Banner = () => {
   return (
@@ -11,17 +12,16 @@ const Banner = () => {
       }}
     >
       <div class="hero-content flex-col lg:flex-row-reverse">
-        <img src={chair} class="max-w-sm rounded-lg shadow-2xl" />
+        <img src={chair} class="max-w-sm rounded-lg shadow-2xl " />
         <div class="p-6">
           <h1 class="text-5xl font-bold">Your New Smile Starts Here</h1>
           <p class="py-6">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the
+            Doctors portal is the prevention, treatment, and management of
+            illness and the preservation of mental and physical well-being
+            through the services offered by the medical, nursing, and allied
+            health professions.
           </p>
-          <button class="btn btn-primary text-white font-bold to uppercase bg-gradient-to-r from-secondary to-primary">
-            Get Started
-          </button>
+          <PrimaryButton></PrimaryButton>
         </div>
       </div>
     </div>
