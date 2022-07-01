@@ -14,10 +14,14 @@ const ContactUs = () => {
       <input
         type="text"
         placeholder="email"
-        class="input w-full max-w-md mb-2"
+        className="input w-full max-w-md mb-2"
       />
       <br />
-      <input type="text" placeholder="subject" class="input w-full max-w-md" />
+      <input
+        type="text"
+        placeholder="subject"
+        className="input w-full max-w-md"
+      />
       <br />
       <br />
       <textarea
