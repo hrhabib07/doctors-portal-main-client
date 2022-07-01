@@ -26,13 +26,13 @@ const Testimonial = () => {
               lot layout. The point of using Lorem a more-or-less normal
               distribu to using Content here, content
             </p>
-            <div className="mt-8 flex">
+            <div className="mt-8 flex items-center">
               <div class="avatar pr-4">
                 <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                   <img src={people2} alt="people2" />
                 </div>
               </div>
-              <div className="pt-4">
+              <div>
                 <h2 className="text-2xl font-bold">Will D Lovely</h2>
                 <h3 className="text-xl ">NYC</h3>
               </div>
@@ -46,13 +46,13 @@ const Testimonial = () => {
               lot layout. The point of using Lorem a more-or-less normal
               distribu to using Content here, content
             </p>
-            <div className="mt-8 flex">
+            <div className="mt-8 flex items-center">
               <div class="avatar pr-4">
                 <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                   <img src={people3} alt="people3" />
                 </div>
               </div>
-              <div className="pt-4">
+              <div>
                 <h2 className="text-2xl font-bold">Asma Khanom</h2>
                 <h3 className="text-xl ">South China</h3>
               </div>
@@ -66,13 +66,13 @@ const Testimonial = () => {
               lot layout. The point of using Lorem a more-or-less normal
               distribu to using Content here, content
             </p>
-            <div className="mt-8 flex">
+            <div className="mt-8 flex items-center">
               <div class="avatar pr-4">
                 <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                   <img src={people1} alt="people1" />
                 </div>
               </div>
-              <div className="pt-4">
+              <div>
                 <h2 className="text-2xl font-bold">Winson Herry</h2>
                 <h3 className="text-xl ">California</h3>
               </div>
