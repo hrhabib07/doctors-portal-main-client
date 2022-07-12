@@ -8,13 +8,17 @@ import { format } from "date-fns";
 const AppointmentBanner = ({ date, setDate }) => {
   return (
     <div
-      class="hero min-h-screen"
+      className="hero min-h-screen"
       style={{
         backgroundImage: `url(${bg})`,
       }}
     >
-      <div class="hero-content flex-col lg:flex-row-reverse gap-12">
-        <img src={chair} alt="chair" class="max-w-sm rounded-lg shadow-2xl" />
+      <div className="hero-content flex-col lg:flex-row-reverse gap-12">
+        <img
+          src={chair}
+          alt="chair"
+          className="max-w-sm rounded-lg shadow-2xl"
+        />
         <div className="pr-4">
           <DayPicker mode="single" selected={date} onSelect={setDate} />
         </div>
